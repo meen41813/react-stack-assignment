@@ -10,7 +10,8 @@ class Couter extends React.Component {
     this.state ={
       count: 0
     };
-    this.increase = this.increase.bind(this);
+    this.increase
+     = this.increase.bind(this);
     this.decrease = this.decrease.bind(this);
   }
   increase(){
